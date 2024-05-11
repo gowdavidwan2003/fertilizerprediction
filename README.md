@@ -7,13 +7,13 @@ This project aims to predict the appropriate fertilizer type based on various so
 1. Clone the repository:
 
     ```
-    git clone https://github.com/your_username/your_project.git
+    git clone https://github.com/gowdavidwan2003/fertilizerprediction.git
     ```
 
 2. Navigate to the project directory:
 
     ```
-    cd your_project
+    cd fertilizerprediction
     ```
 
 3. Install the required dependencies:
