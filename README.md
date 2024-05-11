@@ -42,7 +42,7 @@ This project aims to predict the appropriate fertilizer type based on various so
 - `kmeans_model.pkl`: Pickled KMeans clustering model for soil classification.
 
 ## Credits
-This project was created by Vidwan Gowda H M and Varshith R as a part of Machine Learning Assignment.
+This project was created by [Vidwan Gowda H M](https://github.com/gowdavidwan2003) and [Varshith R](https://github.com/Varshithckm) as a part of Machine Learning Assignment.
 
 
 
