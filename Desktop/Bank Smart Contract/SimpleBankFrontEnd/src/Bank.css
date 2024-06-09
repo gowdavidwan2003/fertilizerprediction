@@ -1,0 +1,93 @@
+.bank-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bank-container h1 {
+    text-align: center;
+    color: #343a40;
+  }
+  
+  .account-selection {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .account-selection label {
+    margin-right: 10px;
+    font-size: 1.2em;
+    color: #343a40;
+  }
+  
+  .account-selection select {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .bank-balance, .loan-balance {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .bank-balance p, .loan-balance p {
+    font-size: 1.2em;
+    color: #28a745;
+  }
+  
+  .bank-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .bank-actions input {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .bank-actions button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+  }
+  
+  .bank-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  .bank-actions button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .bank-actions .transfer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .bank-actions .transfer-section input {
+    width: calc(100% - 22px);
+  }
+  
+  .bank-actions .transfer-section button {
+    align-self: flex-start;
+  }
+
+  .right-align {
+    text-align: right;
+  }
+  
